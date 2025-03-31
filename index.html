@@ -5,17 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; }
-        h1 { color: blue; }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            color: #333;
+        }
+        .projects {
+            list-style: none;
+            padding: 0;
+        }
+        .projects li {
+            background: #007bff;
+            color: white;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .projects a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .projects a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm <b>Amatullah</b>, a beginner in Java & Python.</p>
-    <h2>My Projects</h2>
-    <ul>
-        <li><a href="https://github.com/your-username/project1">Project 1</a></li>
-        <li><a href="https://github.com/your-username/project2">Project 2</a></li>
-    </ul>
+    <div class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm <b>Your Name</b>. I'm learning Java & Python and building awesome projects!</p>
+        
+        <h2>My Projects</h2>
+        <ul class="projects">
+            <li><a href="https://github.com/your-username/project1">Project 1</a></li>
+            <li><a href="https://github.com/your-username/project2">Project 2</a></li>
+            <li><a href="https://github.com/your-username/project3">Project 3</a></li>
+        </ul>
+    </div>
 </body>
 </html>
+
